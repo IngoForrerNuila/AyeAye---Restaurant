@@ -72,14 +72,14 @@ nav{
 
 .parent {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   }
 
   .icons-menu{
-    width: 50%;
+    width: 30%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -98,17 +98,22 @@ nav{
 
   .icons-menu:hover{
     transform: scale(1.05); 
-    filter: drop-shadow(4px 10px 4px #8edb9fc6);
+    filter: drop-shadow(4px 1px 10px #b9ffc8c6);
     
 }
 
   @media screen and (max-width: 960px) {
     .parent {
       display: grid;
-      grid-template-columns: repeat(1, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       grid-template-rows: 3fr;
       grid-column-gap: 0px;
       grid-row-gap: 0px;
     }
+
+    .icons-menu{
+      width: 60%;
+    }
+
 
   }
