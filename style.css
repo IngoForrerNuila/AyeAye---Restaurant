@@ -1,10 +1,15 @@
+@font-face{
+  font-family: "jungle-tribe";
+  src: url(fonts/JungleTribeDemo-0W63G.ttf)
+}
+
 body{
     background: rgb(0, 0, 0);
     
 }
 
 nav{
-  background: linear-gradient(90deg, rgb(79, 79, 79) 0%, rgb(0, 0, 0) 46%, rgb(79, 79, 79) 100%);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 46%, rgb(79, 79, 79) 100%);
 }
  
  nav ul {
@@ -15,6 +20,7 @@ nav{
  }
  
  nav li {
+   font-family: "jungle-tribe";
    margin-right: 50%;
    margin: auto;
    padding: 0;
@@ -23,12 +29,12 @@ nav{
  nav a {
    display: block;
    padding: 1em;
-   color: #fff; /* Change this to your desired text color */
+   color: #fff; 
    text-decoration: none;
  }
  
  nav a:hover {
-   background-color: #df1f1f; /* Change this to your desired hover color */
+   background-color: #43ff64d9;
  }
 
  #myVideo {
@@ -71,6 +77,30 @@ nav{
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   }
+
+  .icons-menu{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    animation-duration: 1s;
+    animation-name: rising;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+  }
+
+  .icon-text{
+    font-family: "jungle-tribe";
+    color: #43ff64d9;
+    text-align: center;
+  }
+
+  .icons-menu:hover{
+    transform: scale(1.05); 
+    filter: drop-shadow(4px 10px 4px #8edb9fc6);
+    
+}
 
   @media screen and (max-width: 960px) {
     .parent {
