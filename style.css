@@ -9,7 +9,7 @@ body{
 }
 
 nav{
-  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 46%, rgb(79, 79, 79) 100%);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 46%, rgb(0, 0, 0) 100%);
   position: fixed;
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; 
@@ -74,6 +74,39 @@ nav{
   object-fit: cover;
 }
 
+.parent-icons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  padding: 1rem;
+  padding-bottom: 0rem;
+  
+}
+.icons-menu{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  animation-duration: 1s;
+  animation-name: rising;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; 
+}
+
+.icon-text{
+  font-family: "jungle-tribe";
+  color: #43ff64d9;
+  text-align: center;
+}
+
+.icons-menu:hover{
+  transform: scale(1.05); 
+  filter: drop-shadow(4px 1px 10px #b9ffc8c6);
+  
+}
+
 .monthly-dish{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -108,38 +141,20 @@ nav{
     padding: 2rem;
   }
 
-  .parent-icons {
+  .carreers{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    padding: 1rem;
-    padding-bottom: 0rem;
-    
-  }
-  .icons-menu{
-    width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    animation-duration: 1s;
-    animation-name: rising;
-    animation-iteration-count: infinite;
-    animation-direction: alternate; 
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: 1fr;
+   grid-column-gap: 0px;
+   grid-row-gap: 0px;
+   background-color: #000000;
   }
 
-  .icon-text{
-    font-family: "jungle-tribe";
+  .monthly-carreer-title{
     color: #43ff64d9;
+    font-family: "jungle-tribe";
     text-align: center;
   }
-
-  .icons-menu:hover{
-    transform: scale(1.05); 
-    filter: drop-shadow(4px 1px 10px #b9ffc8c6);
-    
-}
 
   @media screen and (max-width: 960px) {
     .parent-icons {
@@ -164,6 +179,11 @@ nav{
       padding-left: 0.5rem;
     }
 
+    .carreers{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+
     .icons-menu{
       width: 70%;
     }
@@ -174,7 +194,6 @@ nav{
 
     nav li{
       font-size: smaller;
-      margin-top: 2%;
     }
 
     body{
