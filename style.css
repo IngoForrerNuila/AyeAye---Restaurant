@@ -115,5 +115,9 @@ nav{
       width: 60%;
     }
 
+    nav li{
+      font-size: smaller;
+    }
+
 
   }
