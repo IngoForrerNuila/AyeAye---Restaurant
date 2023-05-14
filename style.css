@@ -127,7 +127,8 @@ nav{
 .monthly-dish-profile{
     color:rgb(255, 255, 255);
     font-family: "arial";
-    padding: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     filter: drop-shadow(2px 2px 1px #000000);
   }
 
@@ -171,12 +172,13 @@ nav{
     }
     
     .monthly-dish-profile{
-    padding: 1rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
     }
 
     .monthly-dish-image-padding{
-      padding-right:  1.3rem;
-      padding-left: 0.5rem;
+      padding-right:  1rem;
+      padding-left: 0.3rem;
     }
 
     .carreers{
