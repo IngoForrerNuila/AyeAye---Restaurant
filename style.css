@@ -13,6 +13,7 @@ nav{
   position: fixed;
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; 
+  z-index: 2;
 }
  
  nav ul {
@@ -103,14 +104,16 @@ nav{
     color:rgb(255, 255, 255);
     font-family: "arial";
     padding: 2rem;
+    filter: drop-shadow(2px 2px 1px #000000);
   }
 
   .monthly-dish-image{
     border-radius: 30px;
+    border: 5px solid #43ff64d9;
   }
 
   .monthly-dish-image-padding{
-    padding: 1rem;
+    padding: 2rem;
   }
 
   .icons-menu{
