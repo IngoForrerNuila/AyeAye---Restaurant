@@ -114,6 +114,7 @@ nav{
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   background-color: #999999;
+  
 }
 
 .monthly-dish-title{
@@ -121,7 +122,7 @@ nav{
     font-family: "jungle-tribe";
     text-align: center;
     filter: drop-shadow(2px 4px 1px #000000);
-    
+    font-size: 26px;
 }
 
 .monthly-dish-profile{
@@ -155,6 +156,7 @@ nav{
   color: #43ff64d9;
   font-family: "jungle-tribe";
   text-align: center;
+  font-size: 26px;
 }
 
   .parent-footer {
