@@ -118,7 +118,6 @@ nav{
   background-size:contain;
   background-position:center center;
   background-attachment:fixed;
- 
   
 }
 
@@ -225,7 +224,10 @@ nav{
     .monthly-dish{
       display: grid;
       grid-template-columns: repeat(1, 1fr);
-      background-size:cover;
+      background:url(img/background-monthly-recommendations-HD-copy.jpg);
+      background-size:contain;
+      background-position:center center;
+      background-attachment:fixed;
     }
     
     .monthly-dish-profile{
