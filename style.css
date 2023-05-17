@@ -113,7 +113,12 @@ nav{
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background-color: #999999;
+  /*background-color: #999999;*/
+  background:url(img/background-monthly-recommendations.jpg);
+  background-size:contain;
+  background-position:center center;
+  background-attachment:fixed;
+ 
   
 }
 
@@ -128,19 +133,29 @@ nav{
 .monthly-dish-profile{
     color:rgb(255, 255, 255);
     font-family: "arial";
-    padding-left: 1rem;
-    padding-right: 1rem;
-    filter: drop-shadow(2px 2px 1px #000000);
+    padding-left: 3rem;
+    padding-right: 3rem;
+    left: 2rem;
+    right: 2rem;
+    filter: drop-shadow(2px 4px 1px #000000);
 }
 
 .monthly-dish-image{
     border-radius: 30px;
     border: 7px solid #43ff6672;
+    width: 70%;
     /*filter: drop-shadow(3px 6px 1px #000000);*/
 }
 
 .monthly-dish-image-padding{
   padding: 2rem;
+  justify-content: center;
+  display: flex;
+}
+
+.index-text-atributes{
+  justify-content: center;
+  display: flex;
 }
 
 .carreers{
@@ -210,6 +225,7 @@ nav{
     .monthly-dish{
       display: grid;
       grid-template-columns: repeat(1, 1fr);
+      background-size:cover;
     }
     
     .monthly-dish-profile{
