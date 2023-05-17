@@ -228,6 +228,7 @@ nav{
       background-size:contain;
       background-position:center center;
       background-attachment:fixed;
+      background-repeat: no-repeat;
     }
     
     .monthly-dish-profile{
