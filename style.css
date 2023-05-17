@@ -114,11 +114,11 @@ nav{
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   /*background-color: #999999;*/
-  background:url(img/background-monthly-recommendations.jpg);
+  background:url(img/background-monthly-recommendations.png);
   background-size:contain;
   background-position:center center;
   background-attachment:fixed;
-  
+ 
 }
 
 .monthly-dish-title{
@@ -224,7 +224,7 @@ nav{
     .monthly-dish{
       display: grid;
       grid-template-columns: repeat(1, 1fr);
-      background:url(img/background-monthly-recommendations-HD-copy.jpg);
+      background:url(img/background-monthly-recommendations-HD-copy.png);
       background-size:contain;
       background-position:center center;
       background-attachment:fixed;
